@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Moumi De</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div id="about">
+        <h2>About Me</h2>
+        <p>
+          Education:
+          <b>Techno India University</b>
+          <br />
+          <b>B.Tech Computer Science and Business Systems.</b>
+          <br />
+          As an aspiring B.Tech CSBS student, I am passionate about the
+          intersection of technology and business.
+        </p>
+        <p><b>Skills:</b><br />Programming Languages: Java, C++, C, Python</p>
+        <p><b>Languages known:</b> English, Hindi, Bengali</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">India</option>
+          <option value="canada">Brazil</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2024 Moumi De</p>
+    </footer>
+  </body>
+</html>
